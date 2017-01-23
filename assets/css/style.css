@@ -1,0 +1,265 @@
+
+body {
+	width: 1024px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	color: #777777;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+	text-decoration: none;
+	color: #666666;
+}
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 36px;
+	padding: 10px;
+	color:white;
+}
+
+h2, h3, h4, h5 {
+	font-family: Georgia, Times, serif;
+	color: #4aaaa5;
+}
+.container {
+	margin: 0px auto;
+	clear: both;
+	background-image: url("../images/background.png");
+	/*height: 640px;*/
+	padding-right: 20px;
+	border-top-style: solid;
+	border-top-color: #dddddd;
+	border-top-width: 2px;
+}
+#name {
+	float: left;
+	margin: 0px 0px 0px 50px;
+	padding: 10px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	width: 250px;
+	top: 0px;
+	left: 50px
+}
+#pages {
+	float: right;
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 5px;
+	padding: 20px;
+	color: #eee;
+	font-size: 15px;
+	line-height: 25px;
+}
+#p1 {
+	padding-left: 20px;
+}
+
+h2 {
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	border-bottom-width: 3px;
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+#portrait {
+	width: 175px;
+}
+.wrapper {
+	overflow: auto;
+	position: relative;
+	border-radius: 25px;
+	padding: 20px;
+	background: #fff;
+	margin: 0px 20px 20px 50px;
+	top: 20px;
+	height: 400px auto;
+	width: 550px;
+	margin-bottom: -18px;
+	}
+div > img {
+	margin: 5px;
+}
+#wrapper {
+	position: relative;
+	border-radius: 25px;
+	padding: 20px;
+	background: #fff;
+	margin: 0px 20px 20px 50px;
+	top: 20px;
+	overflow: auto;
+	height: 600 px auto;
+	width: 550px;
+	margin-bottom: -18px;
+}
+.outerbox {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 125px;
+}
+img {
+	padding-right: 10px;
+	float: left;
+}
+.pict1 {
+	position: relative;
+}
+.link1 {
+	position: relative;
+	left: -200px;
+	top: 85px;
+	text-align: center;
+	padding: 10px 50px 10px 10px;
+	width: 190px;
+	margin-left: 205px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+#link1 {
+	position: relative;
+	left: -200px;
+	top: 85px;
+	text-align: center;
+	padding: 10px 35px 10px 10px;
+	width: 205px;
+	margin-left: 205px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+.link1 > a {
+	color: white;
+}
+#link1 > a {
+	color: white;
+}
+.pict2 {
+	position: relative;
+	top: -38px;
+	left: 20px;
+	z-index: 1;
+}
+.link2 {
+	clear: both;
+	position: relative;
+	left: 295px;
+	top: -90px;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+.link2 > a {
+	color: white;
+}
+p {
+	text-indent: 40px;
+	line-height: 1.5;
+}
+input[name=username] {
+	background-image: url('../images/johnsmith.png');
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+}
+input[name=email] {
+	background-image: url('../images/example.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+input {
+	padding: 10px;
+	height: 50px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	line-height: 34px;
+	border: 2px solid #ccc;
+	width: 500px;
+}
+input[type=button], input[type=submit] {
+	width: 100px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	cursor: pointer;
+}
+textarea {
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	font-size: 18px;
+	line-height: 28px;
+	width: 500px;
+	height: 200px;
+	resize: none;
+}
+.contacts {
+	position: relative;
+	border-radius: 25px;
+	background: white;
+	text-align: center;
+	padding: 15px 15px 15px 30px;
+	width: 235px;
+	height: 120px;
+	top: -903px;
+	left: 670px;
+}
+
+#contacts {
+	position: relative;
+	border-radius: 25px;
+	background: white;
+	text-align: center;
+	padding: 15px 15px 15px 30px;
+	width: 235px;
+	height: 120px;
+	top: -532px;
+	left: 670px;
+}
+#contacts1 {
+	position: relative;
+	border-radius: 25px;
+	background: white;
+	text-align: center;
+	padding: 15px 15px 15px 30px;
+	width: 235px;
+	height: 120px;
+	top: -610px;
+	left: 670px;
+}
+h3 {
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	border-bottom-width: 5px;
+	color: #4aaaa5;
+}
+.push {
+	height: 18px;
+}
+.footer {
+	position: fixed;
+	flex-shrink: 3;
+	bottom: 0px;
+	width: 974px;
+	height: 18px;
+	background: #666666;
+	text-align: center;
+	padding: 25px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	color: white;
+	z-index: 2;
+}
