@@ -1,6 +1,6 @@
 
 body {
-	width: 1024px;
+	width: 960px;
 	margin: 0px auto;
 	box-sizing: border-box;
 	color: #777777;
@@ -26,6 +26,7 @@ h2, h3, h4, h5 {
 	margin: 0px auto;
 	clear: both;
 	background-image: url("../images/background.png");
+	width: 960px;
 	/*height: 640px;*/
 	padding-right: 20px;
 	border-top-style: solid;
@@ -48,7 +49,7 @@ h2, h3, h4, h5 {
 }
 #pages {
 	float: right;
-	width: 250px;
+	width: 200px;
 	margin-top: 10px;
 	margin-right: 5px;
 	padding: 20px;
@@ -249,10 +250,9 @@ h3 {
 	height: 18px;
 }
 .footer {
-	position: fixed;
-	flex-shrink: 3;
+	float: left;
+	width: 930px;
 	bottom: 0px;
-	width: 974px;
 	height: 18px;
 	background: #666666;
 	text-align: center;
@@ -261,5 +261,4 @@ h3 {
 	border-top-color: #4aaaa5;
 	border-top-width: 5px;
 	color: white;
-	z-index: 2;
 }
