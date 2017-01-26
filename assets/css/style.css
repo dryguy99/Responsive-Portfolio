@@ -65,7 +65,7 @@ h3 {
 }
 
 #logo {
-  width: 250px;
+  width: 30%;
   height: 90px;
   float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -116,8 +116,8 @@ footer {
 
 .sidebar {
   padding: 30px;
-  width: 100%;
-  max-width: 270px;
+  width: 28%;
+  max-width: 640px;
   float: right;
   margin-bottom: 20px;
   background: #fff;
@@ -248,18 +248,21 @@ input[type=submit] {
 
 @media screen and (max-width: 979px) and (min-width: 769px) {
   body{
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
   }
   .main-section {
-    width: 68%;
+    width: 60%;
   }
+  .work {
+    width: 40%;
+  }
+
   nav {
-    width: 50%;
+    width: 39%;
   }
   .sidebar {
-    width: 25%;
-    margin: 10px;
+    width: 33%;
   }
   .footer {
     width: 76%;
@@ -270,6 +273,12 @@ input[type=submit] {
   body{
     width: 72%;
     margin: 0px auto;
+  }
+  #masthead {
+    width: 72%;
+  }
+  #logo {
+    width: 100%;
   }
   .main-section {
     width: 74%;
@@ -283,7 +292,7 @@ input[type=submit] {
     width: 100%;
   }
   .sidebar {
-    width: 26%;
+    width: 24%;
   }
   .footer {
     width: 75%;
@@ -292,22 +301,39 @@ input[type=submit] {
 }
 @media screen and (max-width: 640px){
   body {
-    width: 65%;
+    width: 90%;
     margin: 0px auto;
   }
+  .work {
+    width: 100%;
+  }
+  #masthead {
+    width: 90%;
+  }
+  #logo {
+    width: 100%;
+  }
   .main-section {
+    max-width: 640px;
+    width: 100%;
+  }
+  .container {
+    max-width: 640px;
     width: 100%;
   }
   .auth-image {
-    margin-right: 130px;
+    width: 100%;
   }
   nav {
-    float: left;
-    width: 100%;
+    display: inline;
+    justify-content: space-around;
+    width: 79%;
+    
   }
   .sidebar {
     clear: both;
     float: left;
+    width: 100%;
   }
   .footer {
     width: 100%;
