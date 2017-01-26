@@ -288,8 +288,9 @@ input[type=submit] {
     margin-right: 100px;
   }
   nav {
-    float: left;
-    width: 100%;
+    display: inline;
+    justify-content: space-around;
+    width: 79%;
   }
   .sidebar {
     width: 24%;
